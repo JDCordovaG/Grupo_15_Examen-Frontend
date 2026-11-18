@@ -1,0 +1,45 @@
+:root {
+  --color-fondo: #0D0B1A;
+  --color-superficie: #1A1730;
+  --color-primario: #7C3AED;
+  --color-acento: #22D3EE;
+  --color-texto: #EDEAFB;
+  --color-error: #FF6188;
+  --color-exito: #B4FF3C;
+  --radio-borde: 8px;
+
+  
+}
+
+body {
+  background-color: var(--color-fondo) !important;
+  color: var(--color-texto) !important;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.bg-dark-custom {
+  background-color: var(--color-superficie) !important;
+}
+
+.card-custom {
+  background-color: var(--color-superficie);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radio-borde);
+  color: var(--color-texto);
+}
+
+.btn-primary-custom {
+  background-color: var(--color-primario);
+  color: #101410;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-primary-custom:hover {
+  background-color: var(--color-acento);
+  color: #101410;
+}
+
+.text-error {
+  color: var(--color-error);
+}
